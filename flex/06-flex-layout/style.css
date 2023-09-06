@@ -25,3 +25,63 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/*  */
+
+
+
+
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+/* should have made these 3 to one <ul> selector */
+.left-links, .right-links{
+  display: flex;
+  gap: 12px
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+
+
+.content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.buttons {
+  display: flex;
+  gap: 4px;
+}
+
+button {
+  padding: 8px
+}
+
+
